@@ -230,7 +230,14 @@ button:focus {
 }
 
 .front {
-  background: linear-gradient(-45deg, #ffcf00 0%, #fc4f4f 100%) no-repeat 0 0/200%;
+  background-image: linear-gradient(
+    to right bottom,
+    #66bb6a,
+    #5ec75e,
+    #55d34e,
+    #4ddf3a,
+    #45eb12
+  );
   z-index: 3;
 }
 

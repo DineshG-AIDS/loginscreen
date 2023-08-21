@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
@@ -16,7 +18,7 @@ html {
 
 body {
   height: 100%;
-  background: #e9ebee;
+  background: #66bb6a;
   color: #1d2129;
   display: flex;
   align-items: center;
@@ -156,7 +158,8 @@ button:focus {
   height: 500px;
   position: relative;
   border-radius: 20px;
-  box-shadow: 0 14px 28px -10px rgba(0, 0, 0, 0.1), 0 10px 10px -10px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 14px 28px -10px rgba(0, 0, 0, 0.1),
+    0 10px 10px -10px rgba(0, 0, 0, 0.02);
   transform-style: preserve-3d;
 }
 #container > div {
@@ -182,7 +185,7 @@ button:focus {
 
 .login {
   left: 0;
-  background: #FAFAFA;
+  background: #fafafa;
   border-radius: 20px 0 0 20px;
 }
 .login button {
@@ -198,7 +201,7 @@ button:focus {
   right: 0;
   z-index: 1;
   border-radius: 0 20px 20px 0;
-  background: #FAFAFA;
+  background: #fafafa;
 }
 .register button {
   border-radius: 0px;
@@ -227,12 +230,12 @@ button:focus {
 }
 
 .front {
-  background: linear-gradient(-45deg, #FFCF00 0%, #FC4F4F 100%) no-repeat 0 0/200%;
+  background: linear-gradient(-45deg, #ffcf00 0%, #fc4f4f 100%) no-repeat 0 0/200%;
   z-index: 3;
 }
 
 .back {
-  background: linear-gradient(135deg, #FC4F4F 0%, #FFCF00 100%) no-repeat 0 0/200%;
+  background: linear-gradient(135deg, #fc4f4f 0%, #ffcf00 100%) no-repeat 0 0/200%;
   z-index: 2;
 }
 .back .content {
@@ -241,22 +244,22 @@ button:focus {
 
 .active .front {
   -webkit-animation: rot-front 0.6s ease-in-out normal forwards;
-          animation: rot-front 0.6s ease-in-out normal forwards;
+  animation: rot-front 0.6s ease-in-out normal forwards;
 }
 
 .active .back {
   -webkit-animation: rot-back 0.6s ease-in-out normal forwards;
-          animation: rot-back 0.6s ease-in-out normal forwards;
+  animation: rot-back 0.6s ease-in-out normal forwards;
 }
 
 .close .front {
   -webkit-animation: close-rot-front 0.6s ease-in-out normal forwards;
-          animation: close-rot-front 0.6s ease-in-out normal forwards;
+  animation: close-rot-front 0.6s ease-in-out normal forwards;
 }
 
 .close .back {
   -webkit-animation: close-rot-back 0.6s ease-in-out normal forwards;
-          animation: close-rot-back 0.6s ease-in-out normal forwards;
+  animation: close-rot-back 0.6s ease-in-out normal forwards;
 }
 
 @-webkit-keyframes rot-front {
@@ -326,22 +329,22 @@ button:focus {
 }
 .active .register .content {
   -webkit-animation: show 0.7s ease-in-out normal forwards;
-          animation: show 0.7s ease-in-out normal forwards;
+  animation: show 0.7s ease-in-out normal forwards;
 }
 
 .close .register .content {
   -webkit-animation: hide 0.7s ease-in-out normal forwards;
-          animation: hide 0.7s ease-in-out normal forwards;
+  animation: hide 0.7s ease-in-out normal forwards;
 }
 
 .active .login .content {
   -webkit-animation: hide 0.7s ease-in-out normal forwards;
-          animation: hide 0.7s ease-in-out normal forwards;
+  animation: hide 0.7s ease-in-out normal forwards;
 }
 
 .close .login .content {
   -webkit-animation: show 0.7s ease-in-out normal forwards;
-          animation: show 0.7s ease-in-out normal forwards;
+  animation: show 0.7s ease-in-out normal forwards;
 }
 
 @-webkit-keyframes show {

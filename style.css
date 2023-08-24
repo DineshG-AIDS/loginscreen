@@ -18,7 +18,7 @@ html {
 
 body {
   height: 100%;
-  
+
   background: #66bb6a;
   color: #1d2129;
   display: flex;
@@ -127,8 +127,8 @@ button {
   display: block;
   margin: 1em auto;
   border-radius: 40px;
-  border: 1px solid #ff4b2b;
-  background: #ff4b2b;
+  border: 1px solid #000000;
+  background: #20619e;
   color: #fff;
   font-size: 1.2em;
   font-weight: bold;
@@ -231,19 +231,23 @@ button:focus {
 }
 
 .front {
-  background-image: linear-gradient(
-    to right bottom,
-    #66bb6a,
-    #5ec75e,
-    #55d34e,
-    #4ddf3a,
-    #45eb12
+  background: linear-gradient(
+    90deg,
+    hsla(132, 79%, 68%, 1) 0%,
+    hsla(101, 62%, 48%, 1) 100%
   );
   z-index: 3;
 }
 
 .back {
-  background: linear-gradient(135deg, #fc4f4f 0%, #ffcf00 100%) no-repeat 0 0/200%;
+  background-image: linear-gradient(
+    to right bottom,
+    #20619e,
+    #007dae,
+    #0096a7,
+    #00ab8c,
+    #47a44c
+  );
   z-index: 2;
 }
 .back .content {
